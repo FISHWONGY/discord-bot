@@ -51,7 +51,7 @@ async def clearbotmsg(ctx):
     await channel.delete_messages(messages)
 
 
-# Reading in pillow talk's content for the command !chickensoup
+# Reading in txt file for the command !chickensoup
 poem_list = []
 for root, dirs, files in os.walk('/folder_path'):
     for file in files:
