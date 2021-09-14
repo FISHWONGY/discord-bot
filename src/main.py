@@ -11,7 +11,6 @@ TOKEN = 'YOUR_TOKEN'
 
 # Set a prefix for your bot
 client = commands.Bot(command_prefix='!')
-# client.remove_command('help')
 
 
 # Bot on ready and give it a status
